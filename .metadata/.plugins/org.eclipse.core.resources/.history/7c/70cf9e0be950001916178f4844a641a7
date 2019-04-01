@@ -1,0 +1,5 @@
+package com.taotao.service.Impl;
+
+public class PictureServiceImpl {
+
+}

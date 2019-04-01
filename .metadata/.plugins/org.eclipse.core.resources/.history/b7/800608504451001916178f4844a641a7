@@ -1,0 +1,8 @@
+package com.taotao.controller;
+
+import org.springframework.stereotype.Service;
+//展示商品规格参数
+@Service
+public class ItemParamItemController {
+
+}

@@ -1,0 +1,30 @@
+package com.taotao.service.Impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.taotao.mapper.TbItemParamMapper;
+import com.taotao.pojo.TbItemParamExample;
+import com.taotao.pojo.TbItemParamExample.Criteria;
+import com.taotao.service.ItemParamService;
+import com.taotao.utils.TaotaoResult;
+
+@Service
+public class ItemParamServiceImpl implements ItemParamService {
+	
+	@Autowired
+	private TbItemParamMapper itemParamMapper;
+	
+	@Override
+	public TaotaoResult getItemParamByCid(long cid) {
+		TbItemParamExample example = new TbItemParamExample();
+		Criteria criteria = example.createCriteria();
+		criteria.andItemCatIdEqualTo(cid);
+		
+		
+		itemParamMapper.selectByExample(example);
+		
+		return null;
+	}
+
+}

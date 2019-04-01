@@ -1,0 +1,14 @@
+package com.taotao.service.Impl;
+
+import com.taotao.service.ItemParamService;
+import com.taotao.utils.TaotaoResult;
+
+public class ItemParamServiceImpl implements ItemParamService {
+
+	@Override
+	public TaotaoResult getItemParamByCid(long cid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

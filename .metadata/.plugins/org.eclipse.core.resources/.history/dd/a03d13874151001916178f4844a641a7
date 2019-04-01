@@ -1,0 +1,21 @@
+package com.taotao.service.Impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.taotao.mapper.TbItemParamItemMapper;
+import com.taotao.service.ItemParamItemService;
+//展示产品规格参数
+
+@Service
+public class ItemParamItemServiceImpl implements ItemParamItemService {
+	
+	@Autowired
+	private TbItemParamItemMapper itemParamItemMapper
+	
+	@Override
+	public String getItemParamByItemId(Long itemId) {
+		return null;
+	}
+
+}

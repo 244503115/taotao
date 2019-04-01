@@ -1,0 +1,28 @@
+package com.taotao.service.Impl;
+
+import java.util.Map;
+import java.util.UUID;
+
+import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
+
+import com.taotao.service.PictureService;
+import com.taotao.utils.IDUtils;
+
+@Service
+public class PictureServiceImpl implements PictureService{
+	
+	
+	@Override
+	public Map uploadPicture(MultipartFile uploadFile) {
+		//生成一个新的文件名
+		//取原始文件名
+		String oldName = uploadFile.getOriginalFilename();
+		//生成新的文件名
+//		UUID.randomUUID();
+		String newName = IDUtils.genImageName();
+		
+		return null;
+	}
+	
+}

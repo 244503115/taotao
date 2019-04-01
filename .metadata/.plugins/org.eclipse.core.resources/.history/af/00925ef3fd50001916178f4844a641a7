@@ -1,0 +1,10 @@
+#FTP config
+#FTP address
+FTP_ADDRESS=192.168.80.132
+FTP_PORT=21
+FTP_USERNAME=ftpuser
+FTP_PASSWORD=ftpuser
+FTP_BASE_PATH=/home/ftpuser/www/images
+#imageServer config
+#imageServer url
+IMAGE_BASE_URL=http://192.168.80.132/images/
