@@ -1358,3 +1358,10 @@ java.net.SocketException: Connection reset
 	at org.eclipse.eclemma.internal.core.MemoryExecutionDataSource.readFrom(MemoryExecutionDataSource.java:68)
 	at org.eclipse.eclemma.internal.core.launching.AgentServer.run(AgentServer.java:114)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 2 2019-04-02 18:38:54.769
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-04-02 18:38:54.770
+!MESSAGE The project description file (.project) for 'taotao-portal' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-04-02 18:38:54.770
+!MESSAGE The project description file (.project) for 'taotao-rest' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
