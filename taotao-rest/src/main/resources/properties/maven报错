@@ -1,0 +1,14 @@
+Unknown lifecycle phase "clear"
+解决方法：
+	首先在pom中加入
+	 <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-clean-plugin</artifactId>
+                <version>2.4.1</version>
+            </plugin>
+        </plugins>
+    </build>
+    将构建指令改为  org.apache.maven.plugins:maven-clean-plugin:clean  install
+
